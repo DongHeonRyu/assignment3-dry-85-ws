@@ -1,0 +1,14 @@
+DELETE http://localhost:8000/cartDry85/
+Content-Type: application/json
+
+{"SKU": "60429-364"}
+
+POST http://localhost:8000/cartDry85/
+Content-Type: application/json
+
+{"SKU": "60429-364"}
+
+GET http://localhost:8000/cartDry85/
+
+POST http://localhost:8000/cartDry85/checkout
+Content-Type: application/json
